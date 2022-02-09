@@ -3,13 +3,13 @@ t = int(input())
 
 def search(na):
     if not na: return []
-    for i in range(max(na) + 2):
-        if i not in na:
-            break
-    for j in range(1, len(na)):
-        if sum(1 for k in range(i) if k in na[:j + 1]) == i == max(na[:j + 1]) + 1:
-            return [i] + search(na[j + 1:])
-    return [i]
+    if 0 not in na: return [0] * len(na)
+    i = max(na)+1
+    while True:
+        for j in range(1, len(na)):
+            if sum(1 for k in range(i) if k in na[:j + 1]) == i:
+                return [i] + search(na[j + 1:])
+        i -= 1
 
 
 for _ in range(t):
