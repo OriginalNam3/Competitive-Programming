@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Competitive-Programming.iml" filepath="$PROJECT_DIR$/.idea/Competitive-Programming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Competitive-Programming2.iml" filepath="$PROJECT_DIR$/.idea/Competitive-Programming2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DoublePendulum/.idea/DoublePendulum.iml" filepath="$PROJECT_DIR$/../DoublePendulum/.idea/DoublePendulum.iml" />
     </modules>
   </component>
 </project>

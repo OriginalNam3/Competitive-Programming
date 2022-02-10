@@ -18,7 +18,6 @@ int main() {
     int t;
     cin >> t;
     while (t--){
-        map<int, person> bakas;
         int a, b, c;
         cin >> a >> b >> c;
         c = c == 'imposters';
@@ -30,7 +29,7 @@ int main() {
             bakas[a].homies.push_back(b);
             bakas[b].homies.push_back(a);
         }
-        
+
     }
     return 0;
 }
