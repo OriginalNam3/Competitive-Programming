@@ -5,6 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/Competitive-Programming.iml" filepath="$PROJECT_DIR$/.idea/Competitive-Programming.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Competitive-Programming2.iml" filepath="$PROJECT_DIR$/.idea/Competitive-Programming2.iml" />
       <module fileurl="file://$PROJECT_DIR$/../DoublePendulum/.idea/DoublePendulum.iml" filepath="$PROJECT_DIR$/../DoublePendulum/.idea/DoublePendulum.iml" />
+      <module fileurl="file://$USER_HOME$/PycharmProjects/Mastermind/.idea/Mastermind.iml" filepath="$USER_HOME$/PycharmProjects/Mastermind/.idea/Mastermind.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Pylos/.idea/Pylos.iml" filepath="$PROJECT_DIR$/../Pylos/.idea/Pylos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Spinning-Torus/.idea/Spinning-Torus.iml" filepath="$PROJECT_DIR$/../Spinning-Torus/.idea/Spinning-Torus.iml" />
     </modules>
   </component>
 </project>

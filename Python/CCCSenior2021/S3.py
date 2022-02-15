@@ -9,14 +9,30 @@ for _ in range(n):
     w.append(nw)
     d.append(nd)
 
-mint = -1
-for c in range(min(p), max(p)+1):
-    p_ = [abs(e-c) for e in p]
-    d_ = [0] * len(d)
-    for i in range(len(d)):
-        if p_[i] > d[i]:
-            d_[i] = p_[i] - d[i]
+
+def get_time(c):
+    d_ = [abs(p[i]-c) - d[i] if d[i] < abs(p[i]-c) else 0 for i in range(n)]
     t = sum(d_[i] * w[i] for i in range(len(w)))
-    if mint == -1 or t < mint:
-        mint = t
-print(mint)
+    return t
+
+
+def search(start, end, last):
+    if start == end:
+        return start
+    mid = (start + end) // 2
+    t = get_time((start + mid) // 2)
+    if t < last:
+        return search(start, mid, t)
+    t = get_time((mid + end) // 2)
+    if t < last:
+        return search(mid, end, t)
+    if abs(end - start) == 1:
+        st = get_time(start)
+        et = get_time(end)
+        if st == et: return start
+        if st < et: return start
+        else: return end
+    return search((start + mid) // 2, (mid + end) // 2, last)
+
+
+print(get_time(search(min(p), max(p), get_time((min(p) + max(p))//2))))
