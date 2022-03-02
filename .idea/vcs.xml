@@ -2,6 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Codeforces/1336ALinovaAndKingdom" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Codeforces/1409A" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Codeforces/430CXorTree" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Codeforces/490CHackingCypher" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/C++/Xcode" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Pylos" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Spinning-Torus" vcs="Git" />
   </component>

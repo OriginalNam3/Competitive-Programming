@@ -1,32 +1,24 @@
 n, w, d = map(int, input().split())
 ww = {}
-nww = {}
-clst = []
 for _ in range(w):
     a, b = map(int, input().split())
-    if a in ww: ww[a].append(b)
-    else: ww[a] = [b]
-    if b == n:
-        clst.append(a)
-        nww[a] = 1
-s = list(map(int, input().split()))
+    if b not in ww: ww[b] = []
+    ww[b].append(a)
+ct = {}
 
-s_ = [e for e in ww]
-for e in nww: s_.remove(e)
-if w:
-    count = 2
-    while True:
-        nclst = []
-        for c in s_:
-            for tc in clst:
-                if tc in ww[c]:
-                    nclst.append(c)
-                    s_.remove(c)
-                    nww[c] = count
-                    break
-        if not nclst: break
-        count += 1
-        clst[:] = nclst[:]
+def calc_d(c, lt=-1, travelled=[]):
+    if c in travelled:
+        return
+    travelled.append(c)
+    ct[c] = lt + 1
+    if c in ww:
+        for nc in ww[c]:
+            calc_d(nc, lt + 1, travelled)
+
+calc_d(n)
+
+
+s = list(map(int, input().split()))
 
 for _ in range(d):
     x, y = map(int, input().split())
@@ -34,7 +26,14 @@ for _ in range(d):
     s[x-1] = s[y-1]
     s[y-1] = temp
     maxt = s.index(n)
-    tlst = [maxt]
-    for i in range(maxt):
-        if s[i] in nww: tlst.append(i + nww[s[i]])
+    tlst = [maxt] + [ct[s[i]] + i for i in range(maxt) if s[i] in ct]
     print(min(tlst))
+
+# 4 3 3
+# 1 2
+# 3 4
+# 4 1
+# 1 4 3 2
+# 3 4
+# 4 2
+# 3 2

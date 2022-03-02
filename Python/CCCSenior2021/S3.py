@@ -16,23 +16,18 @@ def get_time(c):
     return t
 
 
-def search(start, end, last):
+def search(start, end):
     if start == end:
         return start
     mid = (start + end) // 2
-    t = get_time((start + mid) // 2)
-    if t < last:
-        return search(start, mid, t)
-    t = get_time((mid + end) // 2)
-    if t < last:
-        return search(mid, end, t)
-    if abs(end - start) == 1:
-        st = get_time(start)
-        et = get_time(end)
-        if st == et: return start
-        if st < et: return start
-        else: return end
-    return search((start + mid) // 2, (mid + end) // 2, last)
+    lt = get_time(mid-1)
+    rt = get_time(mid+1)
+    mt = get_time(mid)
+    if lt < mt:
+        return search(start, mid)
+    if rt < mt:
+        return search(mid, end)
+    if lt >= mt <= rt: return mid
 
 
-print(get_time(search(min(p), max(p), get_time((min(p) + max(p))//2))))
+print(get_time(search(min(p), max(p))))
