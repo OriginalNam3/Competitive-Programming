@@ -1,10 +1,3 @@
-//
-//  main.cpp
-//  430CXorTree
-//
-//  Created by Ming Chau Chan on 01/03/2022.
-//
-
 #include <bits/stdc++.h>
 using namespace std;
 
