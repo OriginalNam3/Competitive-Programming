@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Competitive_Programming" targetName="Competitive_Programming" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="More cp">
+      <change afterPath="$PROJECT_DIR$/C++/Xcode/Codeforces/1594DNumberOfImposters.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/CodeForces/#TCP8/A.OddDivisor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/CodeForces/#TCP8/B.StringLCM.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/CodeForces/#TCP8/C.StrangeList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/CodeForces/#TCP8/D.AddToNeighbourAndRemove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/CodeForces/RandomQ/1081ADefiniteGame.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/CodeForces/RandomQ/D.NewYearAndThePermutationConcatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/A.EhAbAnDgCd.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/B.Exam.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/C.VladikAndFlights.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/D.EasterEggs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/E.WarOfTheCorporations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/F.SortingRailwayCars.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/H.FishWeight.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../DoublePendulum/Energy-Time" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1336ALinovaAndKingdom/1336ALinovaAndKingdom.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1336ALinovaAndKingdom/1336ALinovaAndKingdom.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1336ALinovaAndKingdom/1336ALinovaAndKingdom.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1336ALinovaAndKingdom/1336ALinovaAndKingdom.xcodeproj/project.xcworkspace/xcuserdata/mingchauchan.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1336ALinovaAndKingdom/1336ALinovaAndKingdom.xcodeproj/xcuserdata/mingchauchan.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1336ALinovaAndKingdom/1336ALinovaAndKingdom/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1409A/1409A.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1409A/1409A.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1409A/1409A.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1409A/1409A.xcodeproj/project.xcworkspace/xcuserdata/mingchauchan.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1409A/1409A.xcodeproj/xcuserdata/mingchauchan.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1409A/1409A/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1594DNumberofImposters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/1594DNumberofImposters.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/430CXorTree/430CXorTree.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/430CXorTree/430CXorTree.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/430CXorTree/430CXorTree.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/430CXorTree/430CXorTree.xcodeproj/project.xcworkspace/xcuserdata/mingchauchan.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/430CXorTree/430CXorTree.xcodeproj/xcuserdata/mingchauchan.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/430CXorTree/430CXorTree/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/490CHackingCypher/490CHackingCypher.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/490CHackingCypher/490CHackingCypher.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/490CHackingCypher/490CHackingCypher.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/490CHackingCypher/490CHackingCypher.xcodeproj/project.xcworkspace/xcuserdata/mingchauchan.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/490CHackingCypher/490CHackingCypher.xcodeproj/xcuserdata/mingchauchan.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/CodeForces/490CHackingCypher/490CHackingCypher/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/Xcode" beforeDir="false" afterPath="$PROJECT_DIR$/C++/Xcode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/Xcode/Test.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/Xcode/Test.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/Xcode/Test.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/Xcode/Test.xcodeproj/xcuserdata/mingchauchan.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/C++/Xcode/Test/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoublePendulum/GUIClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoublePendulum/GUIClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoublePendulum/PendulumClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoublePendulum/PendulumClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DoublePendulum/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../DoublePendulum/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DoublePendulum" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="24hP4urS8jV4f1AkdjaqeE2dlmn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Python/GoogleHashcode/MentorshipAndTeamwork" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python/GoogleHashcode/MentorshipAndTeamwork" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Python/CodeForces" />
+      <recent name="$PROJECT_DIR$/Python/CodeForces/A2OJ" />
+      <recent name="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Competitive_Programming" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Competitive_Programming" TARGET_NAME="Competitive_Programming" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Competitive_Programming" RUN_TARGET_NAME="Competitive_Programming">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="B.Exam" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Competitive-Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/B.Exam.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="D.NewYearAndThePermutationConcatenation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Competitive-Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/CodeForces/RandomQ" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/CodeForces/RandomQ/D.NewYearAndThePermutationConcatenation.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUIClass" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DoublePendulum" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DoublePendulum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DoublePendulum/GUIClass.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="H.FishWeight" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Competitive-Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/Wednesdays/2-3-2022/H.FishWeight.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DoublePendulum" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../DoublePendulum" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../DoublePendulum/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.main" />
+      <item itemvalue="Python.H.FishWeight" />
+      <item itemvalue="Python.B.Exam" />
+      <item itemvalue="Python.D.NewYearAndThePermutationConcatenation" />
+      <item itemvalue="Python.GUIClass" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.GUIClass" />
+        <item itemvalue="Python.D.NewYearAndThePermutationConcatenation" />
+        <item itemvalue="Python.B.Exam" />
+        <item itemvalue="Python.H.FishWeight" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="" />
+      <created>1644079658603</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644079658603</updated>
+      <workItem from="1644079660424" duration="1856000" />
+      <workItem from="1644158995659" duration="904000" />
+      <workItem from="1644160062184" duration="15107000" />
+      <workItem from="1644410386806" duration="44000" />
+      <workItem from="1644410440889" duration="262000" />
+      <workItem from="1644676640829" duration="45786000" />
+      <workItem from="1645105955886" duration="12287000" />
+      <workItem from="1645284834533" duration="70268000" />
+      <workItem from="1645965976242" duration="15847000" />
+      <workItem from="1646060777659" duration="3000" />
+      <workItem from="1646137253621" duration="32673000" />
+    </task>
+    <task id="LOCAL-00001" summary="Still Doesn't work, too slow">
+      <created>1644264505627</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644264505627</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Pendulumn">
+      <created>1644494946875</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1644494946875</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Stuff">
+      <created>1644951271142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1644951271142</updated>
+    </task>
+    <task id="LOCAL-00004" summary="More cp">
+      <created>1645888730574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1645888730574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Still Doesn't work, too slow" />
+    <MESSAGE value="Pendulumn" />
+    <MESSAGE value="Stuff" />
+    <MESSAGE value="More cp" />
+    <option name="LAST_COMMIT_MESSAGE" value="More cp" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_EhAbAnDgCd.coverage" NAME="A.EhAbAnDgCd Coverage Results" MODIFIED="1646246946401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_EpicNovel.coverage" NAME="B.EpicNovel Coverage Results" MODIFIED="1645817869498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/KotlinHeroesEp8" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_NotAssigning.coverage" NAME="C.NotAssigning Coverage Results" MODIFIED="1645631429502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP4(better)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$S4__1_.coverage" NAME="S4 (1) Coverage Results" MODIFIED="1645890387678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2021/S4" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_YetAnotherArrayRestoration.coverage" NAME="C.YetAnotherArrayRestoration Coverage Results" MODIFIED="1644948175520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP3" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_ShortestPathWithObstacle.coverage" NAME="A.ShortestPathWithObstacle Coverage Results" MODIFIED="1645558458119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP4" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_MinOrSum.coverage" NAME="A.MinOrSum Coverage Results" MODIFIED="1645368511830" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#772(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_Reverse.coverage" NAME="A.Reverse Coverage Results" MODIFIED="1644849921239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#771(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_SequenceOfComparisons.coverage" NAME="A.SequenceOfComparisons Coverage Results" MODIFIED="1645817082409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/KotlinHeroesEp8" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_Candies_.coverage" NAME="B.Candies! Coverage Results" MODIFIED="1645976758715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP7" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_StoneGame.coverage" NAME="A.StoneGame Coverage Results" MODIFIED="1644442327546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP2" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$S2__1_.coverage" NAME="S2 (1) Coverage Results" MODIFIED="1645115147019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$S3.coverage" NAME="S3 Coverage Results" MODIFIED="1645889172572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2021" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_Xor_Tree.coverage" NAME="C.Xor-Tree Coverage Results" MODIFIED="1646062929475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP6" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$110ANearlyLuckyNumber.coverage" NAME="110ANearlyLuckyNumber Coverage Results" MODIFIED="1644319188390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_MEXAndArray.coverage" NAME="B.MEXAndArray Coverage Results" MODIFIED="1644680059186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/GlobalRound19" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$D_YetAnotherMinimizationProblem.coverage" NAME="D.YetAnotherMinimizationProblem Coverage Results" MODIFIED="1644684333881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/GlobalRound19" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_PairProgramming.coverage" NAME="C.PairProgramming Coverage Results" MODIFIED="1645888645866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#731(Div.3)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1645737143674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/GoogleHashcode/MentorshipAndTeamwork" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_SortingParts.coverage" NAME="A.SortingParts Coverage Results" MODIFIED="1644679150629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/GlobalRound19" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_DifferentialSorting.coverage" NAME="C.DifferentialSorting Coverage Results" MODIFIED="1645374224882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#772(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$1594DNumberOfImposters.coverage" NAME="1594DNumberOfImposters Coverage Results" MODIFIED="1646083489384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/RandomQ" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$H_FishWeight.coverage" NAME="H.FishWeight Coverage Results" MODIFIED="1646335857042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_YetAnotherTwoIntegersProblem.coverage" NAME="A.YetAnotherTwoIntegersProblem Coverage Results" MODIFIED="1644941118319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP3" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$96AFootball.coverage" NAME="96AFootball Coverage Results" MODIFIED="1644402046227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$489CGivenLengthAndSumOfDigits.coverage" NAME="489CGivenLengthAndSumOfDigits Coverage Results" MODIFIED="1645876260591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 6" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$230BT_Primes.coverage" NAME="230BT-Primes Coverage Results" MODIFIED="1644842464640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 15" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_OddDivisor.coverage" NAME="A.OddDivisor Coverage Results" MODIFIED="1646230911356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP8" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$main.coverage" NAME="main Coverage Results" MODIFIED="1646403813481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DoublePendulum" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$S4.coverage" NAME="S4 Coverage Results" MODIFIED="1645873584452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$E_WarOfTheCorporations.coverage" NAME="E.WarOfTheCorporations Coverage Results" MODIFIED="1646250779537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$112AOPetyaAndStrings.coverage" NAME="112AOPetyaAndStrings Coverage Results" MODIFIED="1644319542840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$D_AnotherProblemAboutDividing.coverage" NAME="D.AnotherProblemAboutDividing Coverage Results" MODIFIED="1644484500827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP2" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_OddSwapSort.coverage" NAME="B.OddSwapSort Coverage Results" MODIFIED="1644951562134" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#771(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$1594D.coverage" NAME="1594D Coverage Results" MODIFIED="1646048617422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/RandomQ" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$D_LinovaAndKingdom.coverage" NAME="D.LinovaAndKingdom Coverage Results" MODIFIED="1645982777621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP7" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$S2.coverage" NAME="S2 Coverage Results" MODIFIED="1645469602543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$NS2.coverage" NAME="NS2 Coverage Results" MODIFIED="1645114497816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_StrangeList.coverage" NAME="C.StrangeList Coverage Results" MODIFIED="1646234909482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP8" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$476BDreamoonAndWifi.coverage" NAME="476BDreamoonAndWifi Coverage Results" MODIFIED="1644693602623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 15" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_AlphabeticalStrings.coverage" NAME="B.AlphabeticalStrings Coverage Results" MODIFIED="1645558923371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP4" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_Rhyme.coverage" NAME="C.Rhyme Coverage Results" MODIFIED="1645820412705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/KotlinHeroesEp8" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_ReverseAndConcatenate.coverage" NAME="A.ReverseAndConcatenate Coverage Results" MODIFIED="1644237300369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#770(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$main_1_.coverage" NAME="main(1) Coverage Results" MODIFIED="1645737676855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/GoogleHashcode/MentorshipAndTeamwork" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_NotSitting.coverage" NAME="B.NotSitting Coverage Results" MODIFIED="1645628054802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP4(better)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$PendulumClass.coverage" NAME="PendulumClass Coverage Results" MODIFIED="1646057593933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DoublePendulum" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_InversionGraph.coverage" NAME="C.InversionGraph Coverage Results" MODIFIED="1644856431776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#771(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_AvoidLocalMaximums.coverage" NAME="B.AvoidLocalMaximums Coverage Results" MODIFIED="1645369805314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#772(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_MinimumProduct.coverage" NAME="B.MinimumProduct Coverage Results" MODIFIED="1644942392166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP3" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_NotShading.coverage" NAME="A.NotShading Coverage Results" MODIFIED="1645626408782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP4(better)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_VladikAndFlights.coverage" NAME="C.VladikAndFlights Coverage Results" MODIFIED="1646249297336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$Test__1_.coverage" NAME="Test (1) Coverage Results" MODIFIED="1645780746399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$D_NewYearAndThePermutationConcatenation.coverage" NAME="D.NewYearAndThePermutationConcatenation Coverage Results" MODIFIED="1646347288408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/RandomQ" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$136APresents.coverage" NAME="136APresents Coverage Results" MODIFIED="1644318896644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_NumberOfPairs.coverage" NAME="C.NumberOfPairs Coverage Results" MODIFIED="1644435831861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP2" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$D_DecreaseTheSumOfDigits.coverage" NAME="D.DecreaseTheSumOfDigits Coverage Results" MODIFIED="1644944590258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP3" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$285ASlightlyDecreasingPermutations.coverage" NAME="285ASlightlyDecreasingPermutations Coverage Results" MODIFIED="1644401038098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$GUIClass.coverage" NAME="GUIClass Coverage Results" MODIFIED="1646397392407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DoublePendulum" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$339BXeniaAndRingroad.coverage" NAME="339BXeniaAndRingroad Coverage Results" MODIFIED="1644323800821" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_NotSitting__1_.coverage" NAME="B.NotSitting (1) Coverage Results" MODIFIED="1645651572671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#766(Div.2)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_Exam.coverage" NAME="B.Exam Coverage Results" MODIFIED="1646341955646" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_FriendsAndCandies.coverage" NAME="B.FriendsAndCandies Coverage Results" MODIFIED="1644434136178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP2" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_StringLCM.coverage" NAME="B.StringLCM Coverage Results" MODIFIED="1646232176168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP8" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_BouncingBall.coverage" NAME="C.BouncingBall Coverage Results" MODIFIED="1645983463187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP7" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$S1.coverage" NAME="S1 Coverage Results" MODIFIED="1645444076348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_DeleteTwoElements.coverage" NAME="A.DeleteTwoElements Coverage Results" MODIFIED="1645972891542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP7" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_HackingCypher.coverage" NAME="A.HackingCypher Coverage Results" MODIFIED="1646160959183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP6" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$E_TwoPlatforms.coverage" NAME="E.TwoPlatforms Coverage Results" MODIFIED="1644948607053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP3" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$B_FoxAndBoxAccumulation.coverage" NAME="B.FoxAndBoxAccumulation Coverage Results" MODIFIED="1645893479194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP6" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$A_MeximumArray.coverage" NAME="A.MeximumArray Coverage Results" MODIFIED="1644266139057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#767(Div.1)" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$F_SortingRailwayCars.coverage" NAME="F.SortingRailwayCars Coverage Results" MODIFIED="1646298686626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$C_AndrewAndStones.coverage" NAME="C.AndrewAndStones Coverage Results" MODIFIED="1644681697516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/GlobalRound19" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$D_EasterEggs.coverage" NAME="D.EasterEggs Coverage Results" MODIFIED="1646250410965" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$Test.coverage" NAME="Test Coverage Results" MODIFIED="1646084601411" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$277ALearningLanguages.coverage" NAME="277ALearningLanguages Coverage Results" MODIFIED="1644779663417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 15" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$217AIceSkating.coverage" NAME="217AIceSkating Coverage Results" MODIFIED="1644778152347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 15" />
+  </component>
+</project>
