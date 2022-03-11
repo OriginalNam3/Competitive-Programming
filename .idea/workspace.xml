@@ -12,16 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="More cp">
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/B.MakeAP.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/B.MisloveHasLostAnArray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/B.PowerWalking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/B.PrimeSquare.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/C.LunarNewYearAndNumberDivision.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/C.SimilarPairs.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/N.WasteSorting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/1091DNewYearAndThePermutationConcatenation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/1106CLunarNewYearAndNumberDivision.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/1204BMisloveHasLostAnArray.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/1436BPrimeSquare.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/1624BMakeAP.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeForces/770(Div.2)/B.FortuneTelling.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodeForces/770(Div.2)/B.FortuneTelling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/1628C.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/B.MakeAP.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/B.MisloveHasLostAnArray.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/B.PowerWalking.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/B.PrimeSquare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/C.LunarNewYearAndNumberDivision.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/RandomQ/D.NewYearAndThePermutationConcatenation.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +87,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -96,7 +99,7 @@
       <recent name="$PROJECT_DIR$/Python/CodeForces/A2OJ Ladder 14" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.B.PowerWalking">
+  <component name="RunManager" selected="Python.main">
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -140,44 +143,22 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="B.MakeAP" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DoublePendulum" />
+    <configuration name="AGame" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Competitive-Programming" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/RandomQ" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/775 (Div. 2)" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/RandomQ/B.MakeAP.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/775 (Div. 2)/AGame.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="B.MisloveHasLostAnArray" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DoublePendulum" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CodeForces/RandomQ" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/RandomQ/B.MisloveHasLostAnArray.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -228,6 +209,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Critical Values (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Competitive-Programming" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Tonbridge/Maths/Statistics" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Tonbridge/Maths/Statistics/Critical Values.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Critical Values" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DoublePendulum" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -236,12 +239,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Wednesdays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../Tonbridge/Maths/Statistics" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Wednesdays/Critical Values.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../Tonbridge/Maths/Statistics/Critical Values.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -263,7 +266,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CodeForces/RandomQ/B.PrimeSquare.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -396,19 +399,19 @@
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.Python 3.8" />
-      <item itemvalue="Python.B.MakeAP" />
-      <item itemvalue="Python.B.MisloveHasLostAnArray" />
       <item itemvalue="Python.C.LunarNewYearAndNumberDivision" />
       <item itemvalue="Python.Critical Values" />
       <item itemvalue="Python.B.PowerWalking" />
+      <item itemvalue="Python.AGame" />
+      <item itemvalue="Python.Critical Values (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.B.PowerWalking" />
         <item itemvalue="Python.Critical Values" />
+        <item itemvalue="Python.Critical Values (1)" />
+        <item itemvalue="Python.AGame" />
+        <item itemvalue="Python.B.PowerWalking" />
         <item itemvalue="Python.C.LunarNewYearAndNumberDivision" />
-        <item itemvalue="Python.B.MisloveHasLostAnArray" />
-        <item itemvalue="Python.B.MakeAP" />
       </list>
     </recent_temporary>
   </component>
@@ -434,6 +437,10 @@
       <workItem from="1646427814787" duration="2000" />
       <workItem from="1646427831907" duration="714000" />
       <workItem from="1646431449039" duration="13122000" />
+      <workItem from="1646560963726" duration="4447000" />
+      <workItem from="1646738587967" duration="965000" />
+      <workItem from="1646772056389" duration="1140000" />
+      <workItem from="1646816443254" duration="203000" />
     </task>
     <task id="LOCAL-00001" summary="Still Doesn't work, too slow">
       <created>1644264505627</created>
@@ -519,7 +526,7 @@
     <SUITE FILE_PATH="coverage/Competitive_Programming$489CGivenLengthAndSumOfDigits.coverage" NAME="489CGivenLengthAndSumOfDigits Coverage Results" MODIFIED="1645876260591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 6" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$230BT_Primes.coverage" NAME="230BT-Primes Coverage Results" MODIFIED="1644842464640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 15" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$A_OddDivisor.coverage" NAME="A.OddDivisor Coverage Results" MODIFIED="1646230911356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP8" />
-    <SUITE FILE_PATH="coverage/Competitive_Programming$main.coverage" NAME="main Coverage Results" MODIFIED="1646471683070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DoublePendulum" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$main.coverage" NAME="main Coverage Results" MODIFIED="1646772658964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../DoublePendulum" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$S4.coverage" NAME="S4 Coverage Results" MODIFIED="1645873584452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$E_WarOfTheCorporations.coverage" NAME="E.WarOfTheCorporations Coverage Results" MODIFIED="1646250779537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$Python_3_8.coverage" NAME="Python 3.8 Coverage Results" MODIFIED="1646500273745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -531,7 +538,7 @@
     <SUITE FILE_PATH="coverage/Competitive_Programming$S2.coverage" NAME="S2 Coverage Results" MODIFIED="1645469602543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$NS2.coverage" NAME="NS2 Coverage Results" MODIFIED="1645114497816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CCCSenior2022" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$C_StrangeList.coverage" NAME="C.StrangeList Coverage Results" MODIFIED="1646234909482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP8" />
-    <SUITE FILE_PATH="coverage/Competitive_Programming$Critical_Values.coverage" NAME="Critical Values Coverage Results" MODIFIED="1646502373972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Wednesdays" />
+    <SUITE FILE_PATH="coverage/Competitive_Programming$Critical_Values.coverage" NAME="Critical Values Coverage Results" MODIFIED="1646772526715" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../Tonbridge/Maths/Statistics" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$476BDreamoonAndWifi.coverage" NAME="476BDreamoonAndWifi Coverage Results" MODIFIED="1644693602623" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/A2OJ/A2OJ Ladder 15" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$B_AlphabeticalStrings.coverage" NAME="B.AlphabeticalStrings Coverage Results" MODIFIED="1645558923371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/#TCP4" />
     <SUITE FILE_PATH="coverage/Competitive_Programming$C_Rhyme.coverage" NAME="C.Rhyme Coverage Results" MODIFIED="1645820412705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/CodeForces/KotlinHeroesEp8" />
