@@ -7,5 +7,5 @@ for _ in range(t):
     else:
         print('YES')
         for i in range(n):
-            print(3**i, end = ' ')
+            print(3**i, end=' ')
         print()

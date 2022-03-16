@@ -11,11 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="More cp">
-      <change afterPath="$PROJECT_DIR$/CodeForces/776(Div. 3)/B.Div+MOD.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/776(Div. 3)/C.WeightoftheSystemofNestedSegments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CodeForces/RandomQ/432BFootballKit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/CodeForces/770(Div.2)/C.OKEA.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/770(Div.2)/C.OKEA.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CodeForces/EducationalRound142(Div. 2)/B.ProveHimWrong.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodeForces/EducationalRound142(Div. 2)/B.ProveHimWrong.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -407,7 +406,7 @@
       <workItem from="1646560963726" duration="4447000" />
       <workItem from="1646738587967" duration="965000" />
       <workItem from="1646772056389" duration="1140000" />
-      <workItem from="1646816443254" duration="8801000" />
+      <workItem from="1646816443254" duration="9169000" />
     </task>
     <task id="LOCAL-00001" summary="Still Doesn't work, too slow">
       <created>1644264505627</created>
@@ -437,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645888730574</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <created>1647430998882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647430998882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -460,7 +466,8 @@
     <MESSAGE value="Pendulumn" />
     <MESSAGE value="Stuff" />
     <MESSAGE value="More cp" />
-    <option name="LAST_COMMIT_MESSAGE" value="More cp" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Competitive_Programming$A_EhAbAnDgCd.coverage" NAME="A.EhAbAnDgCd Coverage Results" MODIFIED="1646246946401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python/Wednesdays/2-3-2022" />
