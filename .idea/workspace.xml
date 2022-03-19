@@ -11,11 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/CodeForces/770(Div.2)/C.OKEA.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeForces/770(Div.2)/C.OKEA.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CodeForces/EducationalRound142(Div. 2)/B.ProveHimWrong.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodeForces/EducationalRound142(Div. 2)/B.ProveHimWrong.py" afterDir="false" />
-    </list>
+    <list default="true" id="35cfa303-1548-4cea-864a-a9906a6186a5" name="Changes" comment="Update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -406,7 +402,7 @@
       <workItem from="1646560963726" duration="4447000" />
       <workItem from="1646738587967" duration="965000" />
       <workItem from="1646772056389" duration="1140000" />
-      <workItem from="1646816443254" duration="9169000" />
+      <workItem from="1646816443254" duration="9504000" />
     </task>
     <task id="LOCAL-00001" summary="Still Doesn't work, too slow">
       <created>1644264505627</created>
