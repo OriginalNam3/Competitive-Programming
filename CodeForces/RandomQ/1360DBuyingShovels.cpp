@@ -1,6 +1,6 @@
-// Problem: B. Absent Remainder
-// Contest: Codeforces - Educational Codeforces Round 118 (Rated for Div. 2)
-// URL: https://codeforces.com/problemset/problem/1613/B
+// Problem: D. Buying Shovels
+// Contest: Codeforces - Codeforces Round #644 (Div. 3)
+// URL: https://codeforces.com/problemset/problem/1360/D
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
 // 
@@ -11,6 +11,7 @@ using namespace std;
 
 using ll = long long;
 using db = long double; // or double if tight TL
+using str = string;
 
 using pi = pair<int,int>;
 #define mp make_pair
@@ -29,25 +30,25 @@ using vpi = vector<pi>;
 #define sor(x) sort(all(x))
 #define pb push_back
 
-#define f(i,a,b) for (int i = (a); i < (b); ++i)
-#define r(i,a,b) for (int i = (b)-1; i >= (a); --i)
+#define fr(i,a,b) for (int i = (a); i < (b); ++i)
+#define rf(i,a,b) for (int i = (b)-1; i >= (a); --i)
+#define each(x, a) for (auto& x: a)
 
 int main () {
-	ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int t; 
+    ios::sync_with_stdio(false);
+    cin.tie(0);
+    int t;
     cin >> t;
-    while (t--) {
-    	int n;
-    	cin >> n;
-    	vi a(n);
-    	int maxn = 0;
-    	f(i, 0, n) {
-    		cin >> a[i];
-    	}
-    	sor(a);
-    	
-    	f(i, 1, n/2 + 1){
-    		cout << a[i] << " " << a[0] << "\n";
-    	}
+    while (t--){
+    	int n, k;
+		cin >> n >> k;
+		int d = n;
+		for (int x = 1; x * x <= n; x++){
+			if (n % x == 0){
+				if (x <= k) d = min(d, n/x);
+				if (n/x <= k) d = min(d, x);
+			}
+		}
+		cout << d << "\n";
     }
 }
