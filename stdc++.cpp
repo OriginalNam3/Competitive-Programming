@@ -1,5 +1,6 @@
 // Access: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
 
+// Copyright Things: 
 
 // C++ includes used for precompiling -*- C++ -*-
 
@@ -32,6 +33,11 @@
 // 17.4.1.2 Headers
 
 // C
+
+
+
+
+
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
 #endif
@@ -159,3 +165,17 @@
 #include <expected>
 #include <spanstream>
 #endif
+
+// For some reason there's no gcd function.
+int gcd(int a, int b) {
+	while (a != b) {
+		if (a > b) a -= b;
+		else b -= a;
+	}
+	return a;
+}
+
+// Same with __lg(), but fls() works so:
+int __lg(int x) {
+	return fls(x) - 1;
+}
