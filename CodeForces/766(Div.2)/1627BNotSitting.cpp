@@ -1,3 +1,11 @@
+// Problem: B. Not Sitting
+// Contest: Codeforces - Codeforces Round #766 (Div. 2)
+// URL: https://codeforces.com/contest/1627/problem/B
+// Memory Limit: 256 MB
+// Time Limit: 1000 ms
+// 
+// Powered by CP Editor (https://cpeditor.org)
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -25,5 +33,21 @@ typedef vector<pi> vpi;
 
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    
+    int t;
+    cin >> t;
+    while (t--) {
+    	int n, m;
+    	cin >> n >> m;
+    	vi a;
+    	fr(i, 0, n) {
+    		fr(j, 0, m) {
+    			a.pb(max(i, n - 1 - i) + max(j, m - 1 - j));
+    		}
+    	}
+    	sor(a);
+    	fr(i, 0, n * m) {
+    		cout << a[i] << " ";
+    	}
+    	cout << "\n";
+    }
 }
