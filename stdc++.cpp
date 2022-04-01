@@ -32,12 +32,13 @@
 
 // 17.4.1.2 Headers
 
+
+
+// Note that for cp use, all the version checks are commented out.
+// cuchar, cstdalign, memory_resource, ranges, source_location not included
+
+
 // C
-
-
-
-
-
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
 #endif
@@ -59,16 +60,16 @@
 #include <cwchar>
 #include <cwctype>
 
-#if __cplusplus >= 201103L
+// #if __cplusplus >= 201103L
 #include <ccomplex>
 #include <cfenv>
 #include <cinttypes>
-#include <cstdalign>
+// #include <cstdalign>
 #include <cstdbool>
 #include <cstdint>
 #include <ctgmath>
-#include <cuchar>
-#endif
+// #include <cuchar>
+// #endif
 
 // C++
 #include <algorithm>
@@ -92,6 +93,7 @@
 #include <new>
 #include <numeric>
 #include <ostream>
+#include <array>
 #include <queue>
 #include <set>
 #include <sstream>
@@ -104,8 +106,7 @@
 #include <valarray>
 #include <vector>
 
-#if __cplusplus >= 201103L
-#include <array>
+// #if __cplusplus >= 201103L
 #include <atomic>
 #include <chrono>
 #include <codecvt>
@@ -125,24 +126,24 @@
 #include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
-#endif
+// #endif
 
-#if __cplusplus >= 201402L
+// #if __cplusplus >= 201402L
 #include <shared_mutex>
-#endif
+// #endif
 
-#if __cplusplus >= 201703L
+// #if __cplusplus >= 201703L
 #include <any>
 #include <charconv>
 // #include <execution>
 #include <filesystem>
 #include <optional>
-#include <memory_resource>
+// #include <memory_resource>
 #include <string_view>
 #include <variant>
-#endif
+// #endif
 
-#if __cplusplus >= 202002L
+// #if __cplusplus >= 202002L
 #include <barrier>
 #include <bit>
 #include <compare>
@@ -152,30 +153,28 @@
 #endif
 #include <latch>
 #include <numbers>
-#include <ranges>
+// #include <ranges>
 #include <span>
-#include <stop_token>
+// #include <stop_token>
 #include <semaphore>
-#include <source_location>
-#include <syncstream>
+// #include <source_location>
+// #include <syncstream>
 #include <version>
-#endif
+// #endif
 
 #if __cplusplus > 202002L
 #include <expected>
 #include <spanstream>
 #endif
 
-// For some reason there's no gcd function.
 int gcd(int a, int b) {
-	while (a != b) {
-		if (a > b) a -= b;
-		else b -= a;
-	}
-	return a;
+    while (a != b) {
+        if (a > b) a -= b;
+        else b -= a;
+    }
+    return a;
 }
 
-// Same with __lg(), but fls() works so:
 int __lg(int x) {
-	return fls(x) - 1;
+    return fls(x) - 1;
 }
