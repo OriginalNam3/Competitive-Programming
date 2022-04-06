@@ -1,10 +1,10 @@
-// Problem: C. Hamburgers
-// Contest: Codeforces - Codeforces Round #218 (Div. 2)
-// URL: https://codeforces.com/problemset/problem/371/C
-// Memory Limit: 256 MB
-// Time Limit: 1000 ms
-// 
-// Powered by CP Editor (https://cpeditor.org)
+# Problem: C. Hamburgers
+# Contest: Codeforces - Codeforces Round #218 (Div. 2)
+# URL: https://codeforces.com/problemset/problem/371/C
+# Memory Limit: 256 MB
+# Time Limit: 1000 ms
+#
+# Powered by CP Editor (https://cpeditor.org)
 
 h = input()
 b = h.count('B')
