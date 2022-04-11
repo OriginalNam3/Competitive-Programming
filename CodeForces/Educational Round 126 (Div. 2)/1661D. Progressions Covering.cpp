@@ -1,8 +1,8 @@
-// Problem: A. GCD vs LCM
-// Contest: Codeforces - Codeforces Round #781 (Div. 2)
-// URL: https://codeforces.com/contest/1665/problem/A
+// Problem: D. Progressions Covering
+// Contest: Codeforces - Educational Codeforces Round 126 (Rated for Div. 2)
+// URL: https://codeforces.com/contest/1661/problem/D
 // Memory Limit: 256 MB
-// Time Limit: 1000 ms
+// Time Limit: 2000 ms
 // 
 // Powered by CP Editor (https://cpeditor.org)
 
@@ -26,7 +26,7 @@ typedef array<int, 3> qq;
 
 #define all(x) begin(x), end(x)
 #define sor(x) sort(all(x))
-#define rsor(x) sort(rbegin(x), rend(x))
+#define rsor(x) sort(x.rbegin(), x.rend())
 #define pb push_back
 
 #define forn(i,a,b) for (int i = (a); i < (b); ++i)
@@ -41,18 +41,33 @@ int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
 void solve(){
-	int n;
-	cin >> n;
-	cout << "1 " << n-3 << " 1 1\n";
-	return;
+	
 }
 
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int t;
-    cin >> t;
-    while (t--){
-    	solve();
+    int n, k;
+    cin >> n >> k;
+    vll b(n);
+    forn(i, 0, n){
+    	cin >> b[i];
     }
+    ll cur = 0, ans = 0, s = 0;
+    vll c(n);
+    rofn(i, 0, n){
+    	s -= c[i];
+    	// cout << b[i] << " " << i << " " << cur << " " << s << "\n";
+    	if (b[i] > cur){
+    		ll a = (b[i]-cur) / min(i + 1, k);
+    		if ((b[i]-cur) % min(i+1, k) > 0) a++;
+    		// cout << a << " " << i << "\n";
+    		cur += a * min(i+1, k);
+    		// cout << i << " pushed\n";
+    		if (i-k >= 0) c[i-k] += a;
+    		s += a;
+    		ans += a;
+    	}
+    	cur -= s;
+    }
+    cout << ans << "\n";
 }
-
