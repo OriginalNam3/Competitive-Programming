@@ -1,8 +1,8 @@
-// Problem: D. Reverse Sort Sum
-// Contest: Codeforces - Codeforces Round #782 (Div. 2)
-// URL: https://codeforces.com/contest/1659/problem/D
+// Problem: B. New Year Present
+// Contest: Codeforces - Good Bye 2013
+// URL: https://codeforces.com/problemset/problem/379/B
 // Memory Limit: 256 MB
-// Time Limit: 2000 ms
+// Time Limit: 1000 ms
 // 
 // Powered by CP Editor (https://cpeditor.org)
 
@@ -42,30 +42,27 @@ int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
 void solve(){
-	int n;
-	cin >> n;
-	vi c(n);
-	forn(i, 0, n){
-		cin >> c[i];
-	}
-	vb ans(n, 1);
-	forn(i, 0, n){
-		if (c[i] < n - (i * (!ans[i]))){
-			ans[c[i] + (i * (!ans[i]))] = 0;
-		}
-		if (c[i] == 0) ans[i] = 0;
-	}
-	forn(i, 0, n){
-		cout << ans[i] << " ";
-	}
-	cout << "\n";
+	
 }
 
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int t;
-    cin >> t;
-    while (t--){
-    	solve();
+    int n;
+    cin >> n;
+    vi a(n);
+    int cnt = 0;
+    each(x, a) {
+    	cin >> x;
+    	cnt += x;
+    }
+    bool cur = 1;
+    forn(i, 0, n-1){
+    	rep(a[i]){
+    		cout << "PRL";
+    	}
+    	cout << "R";
+    }
+    rep(a[n-1]){
+    	cout << "PLR";
     }
 }

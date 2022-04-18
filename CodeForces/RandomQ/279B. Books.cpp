@@ -1,6 +1,6 @@
-// Problem: D. Reverse Sort Sum
-// Contest: Codeforces - Codeforces Round #782 (Div. 2)
-// URL: https://codeforces.com/contest/1659/problem/D
+// Problem: B. Books
+// Contest: Codeforces - Codeforces Round #171 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/279/B
 // Memory Limit: 256 MB
 // Time Limit: 2000 ms
 // 
@@ -42,30 +42,23 @@ int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
 void solve(){
-	int n;
-	cin >> n;
-	vi c(n);
-	forn(i, 0, n){
-		cin >> c[i];
-	}
-	vb ans(n, 1);
-	forn(i, 0, n){
-		if (c[i] < n - (i * (!ans[i]))){
-			ans[c[i] + (i * (!ans[i]))] = 0;
-		}
-		if (c[i] == 0) ans[i] = 0;
-	}
-	forn(i, 0, n){
-		cout << ans[i] << " ";
-	}
-	cout << "\n";
+	
 }
 
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int t;
-    cin >> t;
-    while (t--){
-    	solve();
+    int n, t;
+    cin >> n >> t;
+    vi a(n);
+    each(x, a) cin >> x;
+    int i = 0, j = 0, ans = 0, cnt = a[0]; 
+    forn(i, 0, n){
+    	while (j < n && cnt <= t) {
+    		j++;
+    		cnt += a[j];
+    	}
+    	ans = max(ans, j - i);
+    	cnt -= a[i];
     }
+    cout << ans;
 }

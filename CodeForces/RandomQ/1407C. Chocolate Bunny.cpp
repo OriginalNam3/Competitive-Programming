@@ -1,8 +1,8 @@
-// Problem: D. Reverse Sort Sum
-// Contest: Codeforces - Codeforces Round #782 (Div. 2)
-// URL: https://codeforces.com/contest/1659/problem/D
+// Problem: C. Chocolate Bunny
+// Contest: Codeforces - Codeforces Round #669 (Div. 2)
+// URL: https://codeforces.com/problemset/problem/1407/C
 // Memory Limit: 256 MB
-// Time Limit: 2000 ms
+// Time Limit: 1000 ms
 // 
 // Powered by CP Editor (https://cpeditor.org)
 
@@ -42,30 +42,37 @@ int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
 void solve(){
-	int n;
-	cin >> n;
-	vi c(n);
-	forn(i, 0, n){
-		cin >> c[i];
-	}
-	vb ans(n, 1);
-	forn(i, 0, n){
-		if (c[i] < n - (i * (!ans[i]))){
-			ans[c[i] + (i * (!ans[i]))] = 0;
-		}
-		if (c[i] == 0) ans[i] = 0;
-	}
-	forn(i, 0, n){
-		cout << ans[i] << " ";
-	}
-	cout << "\n";
+	
 }
 
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int t;
-    cin >> t;
-    while (t--){
-    	solve();
+    int n;
+    cin >> n;
+    vi ans(n);
+    int a, b, cur = 0;
+    forn(i, 1, n){
+    	cout << "? " << cur+1 << " " << i+1 << "\n";
+    	cout.flush();
+    	cin >> a;
+    	cout << "? " << i+1 << " " << cur+1 << "\n";
+    	cout.flush();
+    	cin >> b;
+    	if (a > b){
+    		ans[cur] = a;
+    		cur = i;
+    	}
+    	if (b > a){
+    		ans[i] = b;
+    	}
     }
+    ll sum = (1LL * n * (n + 1))/2;
+    forn(i, 0, n){
+    	sum -= ans[i];
+    }
+    cout << "! ";
+	forn(i, 0, n){
+		if (ans[i] == 0) ans[i] = sum;
+		cout << ans[i] << " ";
+	}
 }

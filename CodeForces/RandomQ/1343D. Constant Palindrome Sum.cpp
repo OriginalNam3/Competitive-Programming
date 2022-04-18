@@ -1,8 +1,8 @@
-// Problem: D. Reverse Sort Sum
-// Contest: Codeforces - Codeforces Round #782 (Div. 2)
-// URL: https://codeforces.com/contest/1659/problem/D
+// Problem: D. Constant Palindrome Sum
+// Contest: Codeforces - Codeforces Round #636 (Div. 3)
+// URL: https://codeforces.com/problemset/problem/1343/D
 // Memory Limit: 256 MB
-// Time Limit: 2000 ms
+// Time Limit: 1000 ms
 // 
 // Powered by CP Editor (https://cpeditor.org)
 
@@ -42,30 +42,42 @@ int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
 void solve(){
-	int n;
-	cin >> n;
-	vi c(n);
-	forn(i, 0, n){
-		cin >> c[i];
-	}
-	vb ans(n, 1);
-	forn(i, 0, n){
-		if (c[i] < n - (i * (!ans[i]))){
-			ans[c[i] + (i * (!ans[i]))] = 0;
+	int n, k;
+	cin >> n >> k;
+	vi a(n);
+	each(x, a) cin >> x;
+	vi cnt(2 * k + 2);
+	forn(i, 0, n/2){
+		if (a[i] > k && a[n - i - 1] > k){
+			continue;
 		}
-		if (c[i] == 0) ans[i] = 0;
+		if (a[i] > k && a[n - i - 1] < k){
+			cnt[a[n - i - 1] + 1]--;
+			cnt[a[n - i - 1] + k + 1]++;
+			continue;
+		}
+		if (a[n - i - 1] > k && a[i] < k){
+			cnt[a[i] + 1]--;
+			cnt[a[i] + k + 1]++;
+			continue;
+		}
+		cnt[min(a[i], a[n - i - 1]) + 1]--;
+		cnt[max(a[i], a[n - i - 1]) + k + 1]++;
+		cnt[a[i] + a[n - i - 1]]--;
+		cnt[a[i] + a[n - i - 1] + 1]++;
 	}
-	forn(i, 0, n){
-		cout << ans[i] << " ";
+	int ans = INT_MAX;
+	forn(i, 1, 2 * k + 2){
+		cnt[i] += cnt[i-1];
+		ans = min(ans, cnt[i]);
+		// cout << cnt[i] << " ";
 	}
-	cout << "\n";
+	cout << n + ans << "\n";
 }
 
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
     int t;
     cin >> t;
-    while (t--){
-    	solve();
-    }
+    while (t--) solve();
 }
