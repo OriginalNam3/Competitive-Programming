@@ -168,11 +168,11 @@
 #endif
 
 int gcd(int a, int b) {
-    while (a != b) {
-        if (a > b) a -= b;
-        else b -= a;
+    while (a != 0) {
+        if (a < b) std::swap(a, b);
+        a %= b;
     }
-    return a;
+    return b;
 }
 
 int __lg(int x) {
