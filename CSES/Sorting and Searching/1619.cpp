@@ -1,11 +1,13 @@
-// Problem: Concert Tickets
+// Problem: Restaurant Customers
 // Contest: CSES - CSES Problem Set
-// URL: https://cses.fi/problemset/task/1091
+// URL: https://cses.fi/problemset/task/1619
 // Memory Limit: 512 MB
 // Time Limit: 1000 ms
-// Date & Time: 2022-05-03 00:05:56
+// Date & Time: 2022-05-13 14:17:18
 // 
 // Powered by CP Editor (https://cpeditor.org)
+
+// You either sink in the coom, or coom in the sink.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,30 +33,33 @@ const int INF = INT_MAX >> 1;
 int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
+void solve(){
+	
+}
+
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int n, m;
-    cin >> n >> m;
-    vector<int> h(n);
-    for (int &x: h) cin >> x;
-    vector<int> t(m);
-    for (int &x: t) cin >> x;
-    
-    set<int> a;
-    map<int, int> cnt;
-    for (int x: h){
-    	a.insert(x);
-    	cnt[x]++;
+    int n;
+    cin >> n;
+    vector<pair<int, int> > a(n);
+    vector<int> t;
+    for (int i = 0; i < n; i++) {
+    	cin >> a[i].f >> a[i].s;
+    	t.pb(a[i].f); t.pb(a[i].s);
     }
-    for (int x: t){
-    	auto it = a.upper_bound(x);
-    	if (it == a.begin()){
-    		cout << "-1\n";
-    	}
-    	else{
-    		it--;
-    		cout << *it << "\n";
-    		if (--cnt[*it] == 0) a.erase(it);
-    	}
+    sor(t);
+    map<int, int> b;
+    for (int i = 0; i < 2 * n; i++){
+    	b[t[i]] = i;
     }
+    vector<int> cnt(2 * n);
+    for (int i = 0; i < n; i++){
+    	cnt[b[a[i].f]]++; cnt[b[a[i].s]]--;
+    }
+    int ans = cnt[0];
+    for (int i = 1; i < 2 * n; i++){
+    	cnt[i] += cnt[i-1];
+    	ans = max(ans, cnt[i]);
+    }
+    cout << ans;
 }

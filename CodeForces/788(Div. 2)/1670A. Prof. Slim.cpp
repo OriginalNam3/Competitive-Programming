@@ -1,11 +1,17 @@
-// Problem: Concert Tickets
-// Contest: CSES - CSES Problem Set
-// URL: https://cses.fi/problemset/task/1091
-// Memory Limit: 512 MB
+// Problem: A. Prof. Slim
+// Contest: Codeforces - Codeforces Round #788 (Div. 2)
+// URL: https://codeforces.com/contest/1670/problem/A
+// Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Date & Time: 2022-05-03 00:05:56
+// Date & Time: 2022-05-16 15:44:02
 // 
 // Powered by CP Editor (https://cpeditor.org)
+
+// History - deleted
+// Holy water - needed
+// Meat - beated
+// Phone - yeeted
+//  - https://codeforces.com/profile/Intellegent <3
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,30 +37,33 @@ const int INF = INT_MAX >> 1;
 int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
+void solve(){
+	int n;
+	cin >> n;
+	vector<int> a(n);
+	int cnt = 0;
+	for (int &x: a) {
+		cin >> x;
+		if (x < 0) cnt++;
+	}
+	for (int i = 0; i < cnt; i++){
+		a[i] = -abs(a[i]);
+	}
+	for (int i = cnt; i < n; i++){
+		a[i] = abs(a[i]);
+	}
+	for (int i = 1; i < n; i++){
+		if (a[i-1] > a[i]){
+			cout << "NO\n";
+			return;
+		}
+	}
+	cout << "YES\n";
+}
+
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int n, m;
-    cin >> n >> m;
-    vector<int> h(n);
-    for (int &x: h) cin >> x;
-    vector<int> t(m);
-    for (int &x: t) cin >> x;
-    
-    set<int> a;
-    map<int, int> cnt;
-    for (int x: h){
-    	a.insert(x);
-    	cnt[x]++;
-    }
-    for (int x: t){
-    	auto it = a.upper_bound(x);
-    	if (it == a.begin()){
-    		cout << "-1\n";
-    	}
-    	else{
-    		it--;
-    		cout << *it << "\n";
-    		if (--cnt[*it] == 0) a.erase(it);
-    	}
-    }
+    int t;
+    cin >> t;
+    while (t--) solve();
 }

@@ -1,11 +1,13 @@
-// Problem: Concert Tickets
+// Problem: Movie Festival
 // Contest: CSES - CSES Problem Set
-// URL: https://cses.fi/problemset/task/1091
+// URL: https://cses.fi/problemset/task/1629
 // Memory Limit: 512 MB
 // Time Limit: 1000 ms
-// Date & Time: 2022-05-03 00:05:56
+// Date & Time: 2022-05-14 10:32:55
 // 
 // Powered by CP Editor (https://cpeditor.org)
+
+// You either sink in the coom, or coom in the sink.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,30 +33,29 @@ const int INF = INT_MAX >> 1;
 int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
+void solve(){
+	
+}
+
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int n, m;
-    cin >> n >> m;
-    vector<int> h(n);
-    for (int &x: h) cin >> x;
-    vector<int> t(m);
-    for (int &x: t) cin >> x;
+    int n;
+    cin >> n;
+    vector<pair<int, int> > a(n);
+    for (int i = 0; i < n; i++){
+    	cin >> a[i].s >> a[i].f;
+    }
     
-    set<int> a;
-    map<int, int> cnt;
-    for (int x: h){
-    	a.insert(x);
-    	cnt[x]++;
-    }
-    for (int x: t){
-    	auto it = a.upper_bound(x);
-    	if (it == a.begin()){
-    		cout << "-1\n";
+    sor(a);
+    int i = 0, r = -1, ans = 0;
+    while (i < n){
+    	while (i < n && a[i].s < r){
+    		i++;
     	}
-    	else{
-    		it--;
-    		cout << *it << "\n";
-    		if (--cnt[*it] == 0) a.erase(it);
+    	if (i < n){
+    		r = a[i].f;
+    		ans++;
     	}
     }
+    cout << ans;
 }

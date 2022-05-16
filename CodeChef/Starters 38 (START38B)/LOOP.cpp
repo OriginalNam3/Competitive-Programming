@@ -1,9 +1,9 @@
-// Problem: Concert Tickets
-// Contest: CSES - CSES Problem Set
-// URL: https://cses.fi/problemset/task/1091
-// Memory Limit: 512 MB
+// Problem: Circular Track
+// Contest: CodeChef - CodeChef Starters 38 Division 2 (Rated)
+// URL: https://www.codechef.com/START38B/problems/LOOP
+// Memory Limit: 256 MB
 // Time Limit: 1000 ms
-// Date & Time: 2022-05-03 00:05:56
+// Date & Time: 2022-05-11 15:30:25
 // 
 // Powered by CP Editor (https://cpeditor.org)
 
@@ -18,6 +18,12 @@ typedef string str;
 #define f first
 #define s second
 
+typedef pair<int,int> pi;
+typedef vector<int> vi;
+typedef vector<long long> vll;
+typedef vector<bool> vb;
+typedef vector<pi> vpi;
+
 #define all(x) begin(x), end(x)
 #define sor(x) sort(all(x))
 #define rsor(x) sort(x.rbegin(), x.rend())
@@ -31,30 +37,15 @@ const int INF = INT_MAX >> 1;
 int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
+void solve(){
+	int a, b, m;
+	cin >> a >> b >> m;
+	cout << min(max(a, b) - min(a, b), min(a, b) + m - max(a, b)) << "\n";
+}
+
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int n, m;
-    cin >> n >> m;
-    vector<int> h(n);
-    for (int &x: h) cin >> x;
-    vector<int> t(m);
-    for (int &x: t) cin >> x;
-    
-    set<int> a;
-    map<int, int> cnt;
-    for (int x: h){
-    	a.insert(x);
-    	cnt[x]++;
-    }
-    for (int x: t){
-    	auto it = a.upper_bound(x);
-    	if (it == a.begin()){
-    		cout << "-1\n";
-    	}
-    	else{
-    		it--;
-    		cout << *it << "\n";
-    		if (--cnt[*it] == 0) a.erase(it);
-    	}
-    }
+    int t;
+    cin >> t;
+    while (t--) solve();
 }

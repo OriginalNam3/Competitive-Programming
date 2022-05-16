@@ -1,11 +1,13 @@
-// Problem: Concert Tickets
-// Contest: CSES - CSES Problem Set
-// URL: https://cses.fi/problemset/task/1091
-// Memory Limit: 512 MB
-// Time Limit: 1000 ms
-// Date & Time: 2022-05-03 00:05:56
+// Problem: A. Two Subsequences
+// Contest: Codeforces - 11-5-2022 Evening
+// URL: https://codeforces.com/problemset/problem/1602/A
+// Memory Limit: 256 MB
+// Time Limit: 2000 ms
+// Date & Time: 2022-05-11 18:48:18
 // 
 // Powered by CP Editor (https://cpeditor.org)
+
+// You either sink in the coom, or coom in the sink.
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -31,30 +33,28 @@ const int INF = INT_MAX >> 1;
 int add(int a, int b) {return (1LL * a + b) % mod;}
 int mul(int a, int b) {return (1LL * a * b) % mod;}
 
+void solve(){
+	str s;
+	cin >> s;
+	char mn = 'z';
+	int j = -1;
+	for (int i = 0; i < s.size(); i++){
+		if (s[i] <= mn){
+			j = i;
+			mn = s[i];
+		}
+	}
+	cout << mn << " ";
+	for (int i = 0; i < s.size(); i++){
+		if (i == j) continue;
+		cout << s[i];
+	}
+	cout << "\n";
+}
+
 int main () {
     ios::sync_with_stdio(false); cin.tie(0); cout.tie(0);
-    int n, m;
-    cin >> n >> m;
-    vector<int> h(n);
-    for (int &x: h) cin >> x;
-    vector<int> t(m);
-    for (int &x: t) cin >> x;
-    
-    set<int> a;
-    map<int, int> cnt;
-    for (int x: h){
-    	a.insert(x);
-    	cnt[x]++;
-    }
-    for (int x: t){
-    	auto it = a.upper_bound(x);
-    	if (it == a.begin()){
-    		cout << "-1\n";
-    	}
-    	else{
-    		it--;
-    		cout << *it << "\n";
-    		if (--cnt[*it] == 0) a.erase(it);
-    	}
-    }
+    int t;
+    cin >> t;
+    while (t--) solve();
 }
