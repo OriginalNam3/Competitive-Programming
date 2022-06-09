@@ -1,4 +1,4 @@
-// Access: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1
+// Access: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/bits
 
 // Copyright Things: 
 
@@ -39,6 +39,10 @@
 
 
 // C
+
+
+#define emplace_back __emplace_back
+
 #ifndef _GLIBCXX_NO_ASSERT
 #include <cassert>
 #endif
